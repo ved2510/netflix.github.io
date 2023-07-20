@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.oy {
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bye {
+    position: absolute;
+    left: 0px;
+    height: 90px;
+}
+
+.k {
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+.create,
+.watch,
+.download,
+.enjoy,
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* background-color: black; */
+}
+
+button {
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+input {
+    color: white;
+    height: 50px;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 7px;
+}
+
+.freq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    /* background-color: black; */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 60px;
+    /* background-color: black; */
+}
+
+
+.hi {
+    padding: 20px;
+    background-color: rgb(65, 52, 52);
+    color: white;
+
+}
+
+.u {
+    width: 800px;
+    background-color: rgb(65, 52, 52);
+    margin-top: 10px;
+}
+
+hr {
+    background-color: rgb(87, 76, 76);
+    height: 7px;
+    border: none;
+}
+
+.v {
+    margin: 20px;
+}
+
+select {
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a,
+h4,
+p,
+h1,
+h2,
+h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: 400; */
+    color: rgb(230, 203, 203);
+}
+
+
+h4 {
+    font-weight: lighter;
+    font-size: larger;
+    font-weight: normal;
+}
+
+h1 {
+    color: white;
+}
